@@ -36,7 +36,7 @@ void loop() {
       digitalWrite(LED4, LOW);
       digitalWrite(LED5, LOW);
     }
-    else if(distance >= 40 && distance <= 45){
+    else if(distance > 40 && distance <= 45){
       digitalWrite(LED1, HIGH);
       digitalWrite(LED2, LOW);
       digitalWrite(LED3, LOW);
